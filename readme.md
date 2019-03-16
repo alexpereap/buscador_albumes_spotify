@@ -37,4 +37,4 @@ DB: spotifyAlbums
   - MongoDB
 # Estructura:
  - src/client contiene todo el front end y el codigo react.
- - src/client contiene todo el backend, una api rest construida con Express (index.js), una clase helper con funciones de comunicacion con spotify (spotify.js) y un modelo de mongo DB (AlbumModel.js)
+ - src/server contiene todo el backend, una api rest construida con Express (index.js), una clase helper con funciones de comunicacion con spotify (spotify.js) y un modelo de mongo DB (AlbumModel.js)
