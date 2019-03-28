@@ -1,5 +1,11 @@
 # Buscador albumes spotify
 La aplicación muestra un formulario de busqueda de albumes, al buscar un album, los resultados se almacenan en una base de datos mongo.
+# Docker:
+```sh
+$ cd buscador_albumes_spotify
+$ docker build -t alexpereap/spotify_albums_lookup .
+$ docker run --name spotify_albums_lookup -p 8080:8080 -d alexpereap/spotify_albums_lookup
+```
 # Instrucciones:
 Instalar depdendencias y correr el servidor:
 ```sh
